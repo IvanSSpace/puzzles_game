@@ -1,1 +1,3 @@
-# puzzles_game
+# React + TypeScript + Vite
+
+puzzles_game

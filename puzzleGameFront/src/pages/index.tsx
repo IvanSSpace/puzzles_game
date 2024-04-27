@@ -1,9 +1,12 @@
+import GameWindow from "../components/GameWindow";
 import BaseLayout from "../components/hocs/Layout"
 
 const Index = () => {
   return (
     <BaseLayout>
-      <div>IndexPage</div>
+      <div className="pt-8">
+        <GameWindow />
+      </div>
     </BaseLayout>
   )
 }

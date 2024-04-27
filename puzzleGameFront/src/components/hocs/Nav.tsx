@@ -16,10 +16,12 @@ const navigateToAchievements = () => {
 }
   
   return (
-  <div>
-    <a onClick={() => navigateToAchievements()}>Достижения</a>
-    <a onClick={() => navigateToMain()}>Главная</a>
-    <a onClick={() => navigateToStore()}>Магазин</a>
+  <div className="bg-[#1B3AAB] h-14 w-full">
+    <div className="flex flex-row justify-around">
+    <button className="bg-[#E5E2FB]" onClick={() => navigateToAchievements()}>Достижения</button>
+    <button onClick={() => navigateToMain()}>Главная</button>
+    <button onClick={() => navigateToStore()}>Магазин</button>
+    </div>
   </div>
   );
 }
